@@ -31,8 +31,6 @@ class V首页ViewController: UIViewController, UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-        //tableview的行高设置成自动行高
-//        tableV.rowHeight = UITableViewAutomaticDimension
         
         //搜索栏
         view.addSubview(first)

@@ -34,7 +34,7 @@ class TabBarViewController: UITabBarController {
         let C我的 = UINavigationController(rootViewController: V我的)
             C我的.tabBarItem = UITabBarItem(title: "我的", image: UIImage.init(named: "tabBar_Item4")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: nil)
         self.viewControllers = [C首页,C大师,C尖货,C我的]
-        self.selectedIndex = 0
+//        self.selectedIndex = 0
         
         
 

@@ -10,8 +10,20 @@ import UIKit
 
 class V尖货ViewController: UIViewController {
 
+    
+    let a = FourView()
+    let b = FourView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addSubview(a)
+        
+        a.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
+        view.addSubview(a)
+        b.frame = CGRect(x: 0, y: 320, width: 300, height: 300)
+        view.addSubview(b)
+        
 
         // Do any additional setup after loading the view.
     }
